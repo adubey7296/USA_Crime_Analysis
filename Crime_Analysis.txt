@@ -51,3 +51,5 @@ Q.4)Calculate the number of arrests done between october 2014 and october 2015.
 	F = FOREACH GroupData GENERATE  COUNT(FilterUDate) ;
 
 	dump CD;
+	
+	//then print
