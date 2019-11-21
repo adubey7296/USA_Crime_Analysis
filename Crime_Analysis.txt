@@ -1,6 +1,6 @@
 Q.1)Calculate the number of cases investigated under each FBI code.
 
-	A = LOAD '/home/acadgild/data/Crimes_2001_to_present.csv' USING PigStorage(',') as (ID: chararray, Case_Num: chararray, date: chararray, block: chararray, 
+	A = LOAD '/home/desktop/data/Crimes_2001_to_present.csv' USING PigStorage(',') as (ID: chararray, Case_Num: chararray, date: chararray, block: chararray, 
 											 IUCR: chararray, type: chararray, desc: chararray, arrest:chararray,
 											 domestic :chararray, beat:chararray, district:chararray, ward:chararray, 
 											area:chararray, FBI_Code:chararray, X:chararray, Y:chararray, year: int ,
